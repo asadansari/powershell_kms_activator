@@ -1,23 +1,12 @@
-﻿# Task Scheduler Setup:
-# Begin the task: On an event
-# Log: Cisco AnyConnect Secure Mobility Client
-# Source: acvpnagent
-# Event ID: 2039
-# Program/Script: 
-# C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-
-# Add arguments (optional): 
-# -WindowStyle Hidden -ExecutionPolicy Bypass -file "C:\your_path_to_script\pshell_kms_activator.ps1"
-
-# Start in (optional): 
-# C:\your_path_to_script\
+﻿# Author: Asad Ansari
+# See README.md for instructions
 
 
 # VARIABLES
 $slmgr_vbs_loc = $env:SystemDrive + "\Windows\System32\"
 $ospp_vbs_32_loc = ${env:ProgramFiles(x86)} + "\Microsoft Office\Office16\"
 $ospp_vbs_64_loc = ${env:ProgramFiles} + "\Microsoft Office\Office16\"
-$kms_server = "your_kms_server.com"
+$kms_server = "your_kms.com"
 
 
 # Return the number of days remaining until Windows activation expires.
