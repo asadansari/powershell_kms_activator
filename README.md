@@ -2,7 +2,7 @@
 ---
 
 I needed a script to ensure that Windows and Office installations on staff laptops
-would stay activated as they transitioned to remote work because of COVID-19.
+would stay activated as staff transitioned to remote work because of COVID-19.
 
 Usually staff would be on-site and would be working on desktop computers permanently 
 connected to the University network.
