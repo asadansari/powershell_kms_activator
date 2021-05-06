@@ -17,7 +17,7 @@ I am sure that this script can be modified to be used with other clients.
 
 1. Open the Windows Task Scheduler.
 2. Go to **Action > Create Task**
-3. Under the **General** tab Change ***User or Group*** to *SYSTEM* (if appropriate).
+3. Under the **General** tab ***Change User or Group*** to *SYSTEM* (if appropriate).
    1. Ensure that *Run with highest privileges* is checked.
    2. Pick your OS in the ***Configure for:*** dropdown.
    
