@@ -6,7 +6,7 @@
 $slmgr_vbs_loc = $env:SystemDrive + "\Windows\System32\"
 $ospp_vbs_32_loc = ${env:ProgramFiles(x86)} + "\Microsoft Office\Office16\"
 $ospp_vbs_64_loc = ${env:ProgramFiles} + "\Microsoft Office\Office16\"
-$kms_server = "your_kms.com"
+$km_server = "your_kms.com"
 
 
 # Return the number of days remaining until Windows activation expires.
@@ -51,7 +51,7 @@ function Get-Office-Activation-Days-Remaining {
 # Reset Windows activation.
 function Set-Windows-Activation {
     Invoke-Expression "cd $slmgr_vbs_loc"
-    Invoke-Expression "cscript //B %windir%\system32\slmgr.vbs /skms $kms_server"
+    Invoke-Expression "cscript //B %windir%\system32\slmgr.vbs /skms $km_server"
     Invoke-Expression "cscript //B %windir%\system32\slmgr.vbs /ato"
 }
 
@@ -59,7 +59,7 @@ function Set-Windows-Activation {
 # Reset Office activation.
 function Set-Office-Activation {
     Set-OSPP-Directory
-    Invoke-Expression "cscript //B ospp.vbs /sethst:$kms_server"
+    Invoke-Expression "cscript //B ospp.vbs /sethst:$km_server"
     Invoke-Expression "cscript //B ospp.vbs /act"
 }
 
