@@ -15,7 +15,7 @@ I am sure that this script can be modified to be used with other VPN clients.
 ###Follow the instructions below to setup this script:
 ---
 
-1. Download the script and modify the $km_server variable under the **# VARIABLES** header to your KMS. See image below for reference.
+1. Download the script <a href="https://github.com/asadansari/pshell_kms_activator/blob/5fd61c1f646b0a5b55a0506054b4e4007873cca1/pshell_kms_activator.ps1">here</a> and modify the $km_server variable under the **# VARIABLES** header to your KMS. See image below for reference.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/3590344/124039870-c582ad80-d9d1-11eb-8e68-a44f233fa0b4.png">
