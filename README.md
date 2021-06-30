@@ -18,7 +18,7 @@ I am sure that this script can be modified to be used with other VPN clients.
 1. Download the script and modify the $km_server variable under the # VARIABLES header to your KMS. See image below for reference.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3590344/124039265-9f104280-d9d0-11eb-961e-8dce41952390.png">
+  <img src="https://user-images.githubusercontent.com/3590344/124039870-c582ad80-d9d1-11eb-8e68-a44f233fa0b4.png">
 </p>
 
 2. Open the Windows Task Scheduler.
