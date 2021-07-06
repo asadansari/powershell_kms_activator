@@ -1,5 +1,4 @@
-#Powershell KMS Activator
----
+<h1>Powershell KMS Activator</h1>
 
 I needed a script to ensure that Windows and Office installations on staff laptops
 would stay activated as staff transitioned to remote work because of COVID-19.
@@ -12,8 +11,7 @@ My university uses the Cisco AnyConnect Secure Mobility Client for VPN access.
 I am sure that this script can be modified to be used with other VPN clients.
 
 
-###Follow the instructions below to setup this script:
----
+<h2>Follow the instructions below to setup this script:</h2>
 
 1. Download the script <a href="https://github.com/asadansari/pshell_kms_activator/blob/5fd61c1f646b0a5b55a0506054b4e4007873cca1/pshell_kms_activator.ps1">here</a> and modify the $km_server variable under the **# VARIABLES** header to your KMS. See image below for reference.
 
