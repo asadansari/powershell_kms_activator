@@ -8,7 +8,7 @@ connected to the university's network.
 
 My university uses the Cisco AnyConnect Secure Mobility Client for VPN access.
 
-I am sure that this script can be modified to be used with other VPN clients.
+This script can probably be modified to work with other VPN clients.
 
 
 <h2>Follow the instructions below to setup this script:</h2>
